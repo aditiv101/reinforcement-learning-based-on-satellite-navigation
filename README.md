@@ -1,2 +1,44 @@
-# reinforcement-learning-based-on-satellite-navigation
-Reinforcement learning with PPO for satellite navigation and debris avoidance in a custom orbital simulation. Trains an agent to maintain stable orbit, avoid collisions, and manage fuel efficiently. Future scope includes 3D simulation, real data, and hardware-in-the-loop testing.
+# 🛰️ PPO-Based Satellite Navigation and Debris Avoidance
+
+This project applies **Proximal Policy Optimization (PPO)**, a reinforcement learning algorithm, to train a satellite agent in a custom 2D orbital environment. The agent learns to maintain a stable orbit, avoid space debris, and manage fuel efficiently — all within a physics-based simulation.
+
+---
+
+## 🚀 Features
+
+- **Custom Orbital Environment:**  
+  A 20x20 grid simulating orbital lanes, debris, and movement constraints.
+  
+- **Physics-Inspired Dynamics:**  
+  Includes velocity, acceleration, fuel consumption, and collision detection.
+
+- **Reinforcement Learning with PPO:**  
+  Uses `MlpPolicy` from Stable-Baselines3 to train a neural network agent with continuous action space (thrust control).
+
+- **Reward System:**  
+  Encourages fuel efficiency and stable orbits while penalizing collisions and boundary violations.
+
+- **Visualization:**  
+  Tracks performance using reward logs and offers visualization for debugging and progress monitoring.
+
+---
+
+## 🧠 Why PPO?
+
+PPO is ideal for environments with continuous control tasks like thrust management. It offers:
+- Sample-efficient learning
+- Stable policy updates
+- Robust performance in dynamic environments
+
+---
+
+## 🧪 Installation
+
+```bash
+git clone https://github.com/your-username/satellite-ppo.git
+cd satellite-ppo
+pip install -r requirements.txt
+```
+How to Run
+
+python train_satellite_agent.py
