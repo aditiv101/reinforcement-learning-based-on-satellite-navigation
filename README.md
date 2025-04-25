@@ -46,7 +46,7 @@ python train_satellite_agent.py
 
 ---
 
-##📈 Future Work
+## 📈 Future Work
 🌍 Expand to 3D orbital simulations
 
 📡 Integrate real-time satellite telemetry
@@ -57,16 +57,7 @@ python train_satellite_agent.py
 
 ---
 
-##📌 Project Summary
+## 📌 Project Summary
 PPO for real-time satellite control and collision avoidance in simulated space. Future extensions aim to bring this into real-world applications with improved realism and onboard testing capabilities.
 
----
 
-##📄 License
-This project is licensed under the MIT License.
-
-css
-Copy
-Edit
-
-Let me know if you want to add badges, GIF demos, or link a paper or video!
