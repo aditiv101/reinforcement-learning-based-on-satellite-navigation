@@ -39,6 +39,6 @@ git clone https://github.com/your-username/satellite-ppo.git
 cd satellite-ppo
 pip install -r requirements.txt
 ```
-How to Run
+## How to Run
 
 python train_satellite_agent.py
