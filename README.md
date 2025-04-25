@@ -39,6 +39,34 @@ git clone https://github.com/your-username/satellite-ppo.git
 cd satellite-ppo
 pip install -r requirements.txt
 ```
+---
 ## How to Run
 
 python train_satellite_agent.py
+
+---
+
+##📈 Future Work
+🌍 Expand to 3D orbital simulations
+
+📡 Integrate real-time satellite telemetry
+
+⚡ Improve energy/fuel modeling
+
+🧪 Test on hardware-in-the-loop systems
+
+---
+
+##📌 Project Summary
+PPO for real-time satellite control and collision avoidance in simulated space. Future extensions aim to bring this into real-world applications with improved realism and onboard testing capabilities.
+
+---
+
+##📄 License
+This project is licensed under the MIT License.
+
+css
+Copy
+Edit
+
+Let me know if you want to add badges, GIF demos, or link a paper or video!
